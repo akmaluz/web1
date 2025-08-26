@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nokia Classics — Mini O‘yinlar (20)</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header class="appbar">
+      <div class="appbar__left"><button id="backBtn" class="iconbtn">←</button></div>
+      <div class="appbar__center">
+        <div class="title">Nokia Classics — 20</div>
+        <div id="subtitle" class="subtitle">Yuklanmoqda…</div>
+      </div>
+      <div class="appbar__right"><a class="badge" id="helpBtn">?</a></div>
+    </header>
+
+    <main id="screen-home" class="screen active">
+      <section class="hero">
+        <h1>Mini O‘yinlar to‘plami</h1>
+        <p>Nokia davridagi mashhur o‘yinlarga hurmat sifatida — yengil va chiroyli klonlar.</p>
+      </section>
+
+      <section class="cards">
+        <!-- 8 playable -->
+        <article class="card" data-screen="snake"><div class="card__media g1">🐍</div><div class="card__body"><h3>Snake</h3><p>Klassik ilon o‘yini</p></div><div class="card__meta"><span class="pill">Arcade</span></div></article>
+        <article class="card" data-screen="bounce"><div class="card__media g2">🟠</div><div class="card__body"><h3>Bounce (lite)</h3><p>Sakrab tangalarni yig‘ing</p></div><div class="card__meta"><span class="pill">Platform</span></div></article>
+        <article class="card" data-screen="rapidroll"><div class="card__media g3">⚪</div><div class="card__body"><h3>Rapid Roll</h3><p>Patformadan pastga tushmang</p></div><div class="card__meta"><span class="pill">Reflex</span></div></article>
+        <article class="card" data-screen="shooter"><div class="card__media g4">🚀</div><div class="card__body"><h3>Space Shooter</h3><p>Space Impact ruhida</p></div><div class="card__meta"><span class="pill">Shooter</span></div></article>
+        <article class="card" data-screen="breaker"><div class="card__media g5">🧱</div><div class="card__body"><h3>Brick Breaker</h3><p>Paddle bilan bloklarni sindiring</p></div><div class="card__meta"><span class="pill">Arcade</span></div></article>
+        <article class="card" data-screen="runner"><div class="card__media g6">🏃</div><div class="card__body"><h3>Runner</h3><p>To‘siqlardan sakrab o‘ting</p></div><div class="card__meta"><span class="pill">Runner</span></div></article>
+        <article class="card" data-screen="memory"><div class="card__media g7">🧠</div><div class="card__body"><h3>Memory</h3><p>Juft kartalarni toping</p></div><div class="card__meta"><span class="pill">Logic</span></div></article>
+        <article class="card" data-screen="taprush"><div class="card__media g8">⚡</div><div class="card__body"><h3>Tap Rush</h3><p>10s ichida maksimal klik</p></div><div class="card__meta"><span class="pill">Speed</span></div></article>
+
+        <!-- 12 placeholders -->
+        <article class="card soon"><div class="card__media g9">🧩</div><div class="card__body"><h3>Blocks (Tetris ruhida)</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g10">💣</div><div class="card__body"><h3>Mines</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g11">✈️</div><div class="card__body"><h3>Sky Force</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g12">🦘</div><div class="card__body"><h3>Jump Up</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g13">🧮</div><div class="card__body"><h3>Sudoku</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g14">🎯</div><div class="card__body"><h3>Whack-a-mole</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g15">🧠</div><div class="card__body"><h3>Simon</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g16">❌⭕</div><div class="card__body"><h3>Tic-Tac-Toe</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g17">🏐</div><div class="card__body"><h3>Volley</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g18">🏁</div><div class="card__body"><h3>Rally</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g19">🏀</div><div class="card__body"><h3>Hoops</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+        <article class="card soon"><div class="card__media g20">🧗</div><div class="card__body"><h3>Climber</h3><p>Tez orada</p></div><div class="card__meta"><span class="pill">Soon</span></div></article>
+      </section>
+
+      <footer class="footer"><div>© Nokia Classics (fan-made) — WebApp</div></footer>
+    </main>
+
+    <!-- PLAY SCREENS -->
+    <main id="screen-snake" class="screen">
+      <section class="toolbar"><h2>🐍 Snake</h2><div class="scoreboard">Ball: <b id="snakeScore">0</b></div></section>
+      <section class="stage"><canvas id="snakeCanvas" width="300" height="300"></canvas>
+        <div class="dpad"><button data-dir="up">▲</button><div class="hrow"><button data-dir="left">◀</button><button data-dir="right">▶</button></div><button data-dir="down">▼</button></div>
+      </section>
+      <section class="actions"><button class="btn" id="snakeStart">▶ Start</button><button class="btn ghost" id="snakeSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-bounce" class="screen">
+      <section class="toolbar"><h2>🟠 Bounce (lite)</h2><div class="scoreboard">Tangalar: <b id="bncScore">0</b></div></section>
+      <section class="stage"><canvas id="bncCanvas" width="320" height="360"></canvas></section>
+      <section class="actions"><button class="btn" id="bncStart">▶ Start</button><button class="btn ghost" id="bncSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-rapidroll" class="screen">
+      <section class="toolbar"><h2>⚪ Rapid Roll</h2><div class="scoreboard">Ball: <b id="rrScore">0</b></div></section>
+      <section class="stage"><canvas id="rrCanvas" width="300" height="360"></canvas></section>
+      <section class="actions"><button class="btn" id="rrStart">▶ Start</button><button class="btn ghost" id="rrSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-shooter" class="screen">
+      <section class="toolbar"><h2>🚀 Space Shooter</h2><div class="scoreboard">Ball: <b id="shScore">0</b></div></section>
+      <section class="stage"><canvas id="shCanvas" width="320" height="420"></canvas></section>
+      <section class="actions"><button class="btn" id="shStart">▶ Start</button><button class="btn ghost" id="shSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-breaker" class="screen">
+      <section class="toolbar"><h2>🧱 Brick Breaker</h2><div class="scoreboard">Ball: <b id="brScore">0</b></div></section>
+      <section class="stage"><canvas id="brCanvas" width="320" height="420"></canvas></section>
+      <section class="actions"><button class="btn" id="brStart">▶ Start</button><button class="btn ghost" id="brSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-runner" class="screen">
+      <section class="toolbar"><h2>🏃 Runner</h2><div class="scoreboard">Ball: <b id="rnScore">0</b></div></section>
+      <section class="stage"><canvas id="rnCanvas" width="320" height="180"></canvas></section>
+      <section class="actions"><button class="btn" id="rnStart">▶ Start</button><button class="btn ghost" id="rnSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-memory" class="screen">
+      <section class="toolbar"><h2>🧠 Memory</h2><div class="scoreboard">Harakat: <b id="memMoves">0</b></div></section>
+      <section class="stage"><div id="memGrid" class="mem-grid"></div></section>
+      <section class="actions"><button class="btn" id="memStart">▶ Restart</button><button class="btn ghost" id="memSend">Natijani yuborish</button></section>
+    </main>
+
+    <main id="screen-taprush" class="screen">
+      <section class="toolbar"><h2>⚡ Tap Rush</h2><div class="scoreboard">Qolgan vaqt: <b id="tapTime">10.0</b>s — Ball: <b id="tapScore">0</b></div></section>
+      <section class="stage"><button class="tapbtn" id="tapBig">TAP</button></section>
+      <section class="actions"><button class="btn" id="tapStart">▶ Start (10s)</button><button class="btn ghost" id="tapSend">Natijani yuborish</button></section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="game_snake.js"></script>
+  <script src="game_bounce.js"></script>
+  <script src="game_rapidroll.js"></script>
+  <script src="game_shooter.js"></script>
+  <script src="game_breaker.js"></script>
+  <script src="game_runner.js"></script>
+  <script src="game_memory.js"></script>
+  <script src="game_taprush.js"></script>
+</body>
+</html>
